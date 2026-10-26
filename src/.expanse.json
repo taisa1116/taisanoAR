@@ -1952,6 +1952,90 @@
         },
         "paused": true
       }
+    },
+    "e1052d6d-c5ed-4df3-8c88-a099111cf8df": {
+      "id": "e1052d6d-c5ed-4df3-8c88-a099111cf8df",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "イメージターゲット (2)",
+      "imageTarget": {
+        "name": "DSC_0051"
+      },
+      "order": 11.202205869085624
+    },
+    "91f8e74a-9913-4334-bd33-7e59de8077d3": {
+      "id": "91f8e74a-9913-4334-bd33-7e59de8077d3",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "イメージターゲット (3)",
+      "imageTarget": {
+        "name": "DSC_0053"
+      },
+      "order": 12.387755345914972
+    },
+    "23d5b47e-e131-4c7a-b78e-2fbb2875c8c8": {
+      "id": "23d5b47e-e131-4c7a-b78e-2fbb2875c8c8",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "イメージターゲット (4)",
+      "imageTarget": {
+        "name": "DSC_0054"
+      },
+      "order": 13.712264471146332
     }
   },
   "spaces": {
