@@ -1733,10 +1733,18 @@
           "asset": "assets/1_4.glb"
         },
         "animationClip": "ani01",
-        "loop": false
+        "loop": false,
+        "paused": true
       },
       "name": "1_4.glb",
-      "order": 15.185151466950455
+      "order": 15.185151466950455,
+      "audio": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/sound/1.wav"
+        },
+        "paused": true
+      }
     },
     "a95f5f86-a6be-4d33-9cc5-2260dfbc3671": {
       "id": "a95f5f86-a6be-4d33-9cc5-2260dfbc3671",
@@ -1850,10 +1858,18 @@
           "asset": "assets/1_4.glb"
         },
         "animationClip": "ani03",
-        "loop": true
+        "loop": false,
+        "paused": true
       },
       "name": "1_4.glb (1)",
-      "order": 1.6513702066499383
+      "order": 1.6513702066499383,
+      "audio": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/sound/3.wav"
+        },
+        "paused": true
+      }
     },
     "26f75450-5121-4f7e-9ae2-3a1da9f6873b": {
       "id": "26f75450-5121-4f7e-9ae2-3a1da9f6873b",
@@ -1883,7 +1899,8 @@
           "asset": "assets/1_4.glb"
         },
         "animationClip": "ani02",
-        "loop": false
+        "loop": false,
+        "paused": true
       },
       "name": "1_4.glb (2)",
       "order": 1.9495894105604594,
@@ -1891,7 +1908,8 @@
         "src": {
           "type": "asset",
           "asset": "assets/sound/2.wav"
-        }
+        },
+        "paused": true
       }
     },
     "b6bbaa95-3745-478e-bb5e-2f74313f9fcf": {
@@ -1922,7 +1940,8 @@
           "asset": "assets/1_4.glb"
         },
         "animationClip": "ani04",
-        "loop": true
+        "loop": false,
+        "paused": true
       },
       "name": "1_4.glb (3)",
       "order": 1.7097674427127691,
@@ -1930,70 +1949,9 @@
         "src": {
           "type": "asset",
           "asset": "assets/sound/4.wav"
-        }
+        },
+        "paused": true
       }
-    },
-    "242ba7ed-f2f1-475c-afb4-e8a4a8c2bfc7": {
-      "id": "242ba7ed-f2f1-475c-afb4-e8a4a8c2bfc7",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "e4ec1cfe-3b1a-42f6-bbcd-aa84dedf4f2c",
-      "components": {},
-      "audio": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/sound/1.wav"
-        }
-      },
-      "name": "1.wav",
-      "order": 1.9646733086972143
-    },
-    "e656937c-ba20-45f7-80f3-b95f2ba78fc0": {
-      "id": "e656937c-ba20-45f7-80f3-b95f2ba78fc0",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "26f75450-5121-4f7e-9ae2-3a1da9f6873b",
-      "components": {},
-      "audio": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/sound/2.wav"
-        }
-      },
-      "name": "2.wav",
-      "order": 1.702086868044868
     }
   },
   "spaces": {
