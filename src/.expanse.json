@@ -1734,17 +1734,10 @@
         },
         "animationClip": "ani01",
         "loop": false,
-        "paused": true
+        "paused": false
       },
       "name": "1_4.glb",
-      "order": 15.185151466950455,
-      "audio": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/sound/1.wav"
-        },
-        "paused": true
-      }
+      "order": 15.185151466950455
     },
     "a95f5f86-a6be-4d33-9cc5-2260dfbc3671": {
       "id": "a95f5f86-a6be-4d33-9cc5-2260dfbc3671",
@@ -1859,17 +1852,10 @@
         },
         "animationClip": "ani03",
         "loop": false,
-        "paused": true
+        "paused": false
       },
       "name": "1_4.glb (1)",
-      "order": 1.6513702066499383,
-      "audio": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/sound/3.wav"
-        },
-        "paused": true
-      }
+      "order": 1.6513702066499383
     },
     "26f75450-5121-4f7e-9ae2-3a1da9f6873b": {
       "id": "26f75450-5121-4f7e-9ae2-3a1da9f6873b",
@@ -1900,17 +1886,10 @@
         },
         "animationClip": "ani02",
         "loop": false,
-        "paused": true
+        "paused": false
       },
       "name": "1_4.glb (2)",
-      "order": 1.9495894105604594,
-      "audio": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/sound/2.wav"
-        },
-        "paused": true
-      }
+      "order": 1.9495894105604594
     },
     "b6bbaa95-3745-478e-bb5e-2f74313f9fcf": {
       "id": "b6bbaa95-3745-478e-bb5e-2f74313f9fcf",
@@ -1941,16 +1920,12 @@
         },
         "animationClip": "ani04",
         "loop": false,
-        "paused": true
+        "paused": false
       },
       "name": "1_4.glb (3)",
       "order": 1.7097674427127691,
-      "audio": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/sound/4.wav"
-        },
-        "paused": true
+      "imageTarget": {
+        "name": "9"
       }
     },
     "e1052d6d-c5ed-4df3-8c88-a099111cf8df": {
