@@ -55,6 +55,6 @@ XR8.addCameraPipelineModule({
   }      //ここまで追加分
 });
  
-}
+};
 window.XR8 ? onxrloaded() : window.addEventListener('xrloaded', onxrloaded)
 
