@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 0,
+    "width": 768,
+    "height": 1024,
+    "isRotated": true,
+    "originalWidth": 768,
+    "originalHeight": 1024
+  },
+  "imagePath": "image-targets/RCA_Indian_Head_test_pattern_luminance.jpg",
+  "metadata": null,
+  "name": "RCA_Indian_Head_test_pattern",
+  "resources": {
+    "originalImage": "RCA_Indian_Head_test_pattern_original.jpg",
+    "croppedImage": "RCA_Indian_Head_test_pattern_cropped.jpg",
+    "thumbnailImage": "RCA_Indian_Head_test_pattern_thumbnail.jpg",
+    "luminanceImage": "RCA_Indian_Head_test_pattern_luminance.jpg"
+  },
+  "created": 1785228718918,
+  "updated": 1785228718918
+}
