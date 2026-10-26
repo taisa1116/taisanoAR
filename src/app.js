@@ -16,14 +16,14 @@ const onxrloaded = () => {
   XR8.addCameraPipelineModule(LandingPage.pipelineModule())
  // --- 音声の準備 ---ここから追加分
 const audioMap = {
-  DSC_0031: new Audio('assets/sounds/1.wav'),
-  DSC_0024: new Audio('assets/sounds/2.wav'),
-  DSC_0033: new Audio('assets/sounds/3.wav'),
-  DSC_0018: new Audio('assets/sounds/4.wav'),
-  DSC_0051: new Audio('assets/sounds/5.wav'),
-  DSC_0053: new Audio('assets/sounds/6.wav'),
-  DSC_0054: new Audio('assets/sounds/7.wav'),
-  9: new Audio('assets/sounds/8.wav'),
+  DSC_0031: new Audio('assets/sound/1.wav'),
+  DSC_0024: new Audio('assets/sound/2.wav'),
+  DSC_0033: new Audio('assets/sound/3.wav'),
+  DSC_0018: new Audio('assets/sound/4.wav'),
+  DSC_0051: new Audio('assets/sound/5.wav'),
+  DSC_0053: new Audio('assets/sound/6.wav'),
+  DSC_0054: new Audio('assets/sound/7.wav'),
+  9: new Audio('assets/sound/8.wav'),
 };
 
 // 事前ロード
