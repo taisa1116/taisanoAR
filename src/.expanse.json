@@ -42,27 +42,9 @@
         1,
         1
       ],
-      "geometry": {
-        "type": "plane",
-        "width": 1,
-        "height": 0.5625
-      },
-      "material": {
-        "type": "unlit",
-        "color": "#FFFFFF",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/magic-photos/waves.mp4"
-        }
-      },
       "parentId": "95eb1534-0d1c-4fcf-9474-047dc87890bc",
       "components": {},
       "name": "Video Player",
-      "videoControls": {
-        "paused": true,
-        "loop": true,
-        "positional": true
-      },
       "order": 0.5911211005289122
     },
     "95eb1534-0d1c-4fcf-9474-047dc87890bc": {
@@ -88,9 +70,6 @@
       "parentId": "35d3cf8f-c4ba-4b9c-9601-b13ab6dcb449",
       "components": {},
       "name": "Target",
-      "imageTarget": {
-        "name": "waves"
-      },
       "order": 2.182242201057824
     },
     "47699d9e-18a5-4f88-a4f9-b8be92e8f74a": {
