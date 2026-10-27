@@ -20,7 +20,19 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {},
+      "components": {
+        "6d46f7c7-07bd-493a-8b13-10201e919994": {
+          "id": "6d46f7c7-07bd-493a-8b13-10201e919994",
+          "name": "Pause Video on Image Target Lost",
+          "parameters": {
+            "videoPlayer": {
+              "type": "entity",
+              "id": "bf7fad6f-2adb-4b93-955d-65a6e8cf9fb9"
+            },
+            "imageTargetName": "waves"
+          }
+        }
+      },
       "name": "Image Target Video",
       "prefab": true
     },
