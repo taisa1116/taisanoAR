@@ -20,19 +20,7 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {
-        "6d46f7c7-07bd-493a-8b13-10201e919994": {
-          "id": "6d46f7c7-07bd-493a-8b13-10201e919994",
-          "name": "Pause Video on Image Target Lost",
-          "parameters": {
-            "videoPlayer": {
-              "type": "entity",
-              "id": "bf7fad6f-2adb-4b93-955d-65a6e8cf9fb9"
-            },
-            "imageTargetName": "waves"
-          }
-        }
-      },
+      "components": {},
       "name": "Image Target Video",
       "prefab": true
     },
@@ -198,34 +186,6 @@
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
-    },
-    "fe265ce7-4434-48e2-9138-c271e2e254ab": {
-      "id": "fe265ce7-4434-48e2-9138-c271e2e254ab",
-      "position": [
-        0,
-        0.6179719094004342,
-        -4.244511922819514
-      ],
-      "rotation": [
-        -0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
-      "name": "イメージターゲット",
-      "imageTarget": {
-        "name": "DSC_0044"
-      },
-      "order": 4.6349235675106355
     },
     "497f3492-eed9-4445-a6ad-4d464b779551": {
       "id": "497f3492-eed9-4445-a6ad-4d464b779551",
