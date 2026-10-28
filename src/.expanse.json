@@ -544,7 +544,13 @@
         "5082f865-2a9e-4027-8a9f-4d1af2f8a0a3": {
           "id": "5082f865-2a9e-4027-8a9f-4d1af2f8a0a3",
           "name": "Keep After Image Target Lost",
-          "parameters": {}
+          "parameters": {
+            "imageTargetName": "DSC_0031",
+            "model": {
+              "type": "entity",
+              "id": "e4ec1cfe-3b1a-42f6-bbcd-aa84dedf4f2c"
+            }
+          }
         }
       },
       "name": "Anchor1",
@@ -575,7 +581,13 @@
         "b1f96c11-9074-44e2-8445-30276f047278": {
           "id": "b1f96c11-9074-44e2-8445-30276f047278",
           "name": "Keep After Image Target Lost",
-          "parameters": {}
+          "parameters": {
+            "imageTargetName": "DSC_0033",
+            "model": {
+              "type": "entity",
+              "id": "26f75450-5121-4f7e-9ae2-3a1da9f6873b"
+            }
+          }
         }
       },
       "name": "Anchor2",
@@ -606,7 +618,13 @@
         "3c6772d6-11d7-495f-9cbb-e9a083b04dd1": {
           "id": "3c6772d6-11d7-495f-9cbb-e9a083b04dd1",
           "name": "Keep After Image Target Lost",
-          "parameters": {}
+          "parameters": {
+            "imageTargetName": "DSC_0024",
+            "model": {
+              "type": "entity",
+              "id": "0210547f-d3e4-4a59-8d45-99cc12d7223b"
+            }
+          }
         }
       },
       "name": "Anchor3",
@@ -637,7 +655,13 @@
         "f3dbeb70-9e44-4c90-a73b-f34d3f3dab04": {
           "id": "f3dbeb70-9e44-4c90-a73b-f34d3f3dab04",
           "name": "Keep After Image Target Lost",
-          "parameters": {}
+          "parameters": {
+            "imageTargetName": "DSC_0018",
+            "model": {
+              "type": "entity",
+              "id": "b6bbaa95-3745-478e-bb5e-2f74313f9fcf"
+            }
+          }
         }
       },
       "name": "Amchor4",
