@@ -236,7 +236,15 @@
       "geometry": null,
       "material": null,
       "parentId": "497f3492-eed9-4445-a6ad-4d464b779551",
-      "components": {},
+      "components": {
+        "c6891b9b-2836-4a1b-bbf3-84aff595a2d1": {
+          "id": "c6891b9b-2836-4a1b-bbf3-84aff595a2d1",
+          "name": "Play Animation on Image Target Found",
+          "parameters": {
+            "imageTargetName": "DSC_0031"
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -354,7 +362,15 @@
       "geometry": null,
       "material": null,
       "parentId": "a95f5f86-a6be-4d33-9cc5-2260dfbc3671",
-      "components": {},
+      "components": {
+        "4b1ce928-27d4-416e-ba19-7f4919c2c82c": {
+          "id": "4b1ce928-27d4-416e-ba19-7f4919c2c82c",
+          "name": "Play Animation on Image Target Found",
+          "parameters": {
+            "imageTargetName": "DSC_0024"
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -388,7 +404,15 @@
       "geometry": null,
       "material": null,
       "parentId": "9eade930-5112-4e61-af34-932862d9eeb0",
-      "components": {},
+      "components": {
+        "7886f20b-b880-4a00-9426-586ad61e1e7c": {
+          "id": "7886f20b-b880-4a00-9426-586ad61e1e7c",
+          "name": "Play Animation on Image Target Found",
+          "parameters": {
+            "imageTargetName": "DSC_0033"
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -422,7 +446,15 @@
       "geometry": null,
       "material": null,
       "parentId": "9c5519cc-df3b-40e5-bb3a-33c195c4f317",
-      "components": {},
+      "components": {
+        "6b44ed28-69ec-48ec-af4f-4fb8eca03587": {
+          "id": "6b44ed28-69ec-48ec-af4f-4fb8eca03587",
+          "name": "Play Animation on Image Target Found",
+          "parameters": {
+            "imageTargetName": "DSC_0018"
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
