@@ -213,7 +213,7 @@
         "name": "DSC_0031"
       },
       "order": 6.314429385701817,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+      "parentId": "15d401b0-fbf3-4235-a629-881d2d2c94f3"
     },
     "e4ec1cfe-3b1a-42f6-bbcd-aa84dedf4f2c": {
       "id": "e4ec1cfe-3b1a-42f6-bbcd-aa84dedf4f2c",
@@ -236,15 +236,7 @@
       "geometry": null,
       "material": null,
       "parentId": "497f3492-eed9-4445-a6ad-4d464b779551",
-      "components": {
-        "c6891b9b-2836-4a1b-bbf3-84aff595a2d1": {
-          "id": "c6891b9b-2836-4a1b-bbf3-84aff595a2d1",
-          "name": "Play Animation on Image Target Found",
-          "parameters": {
-            "imageTargetName": "DSC_0031"
-          }
-        }
-      },
+      "components": {},
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -277,7 +269,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "048a93a2-c334-4d72-b9d9-5a54a58f3b54",
       "components": {},
       "name": "DSC_0024",
       "imageTarget": {
@@ -305,7 +297,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "972f98d7-ce3e-416c-b510-4fbec8773490",
       "components": {},
       "name": "DSC_0033",
       "imageTarget": {
@@ -333,7 +325,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "38dfb991-422b-4b0b-93fa-a593fa54aa22",
       "components": {},
       "name": "DSC_0018",
       "imageTarget": {
@@ -362,15 +354,7 @@
       "geometry": null,
       "material": null,
       "parentId": "a95f5f86-a6be-4d33-9cc5-2260dfbc3671",
-      "components": {
-        "4b1ce928-27d4-416e-ba19-7f4919c2c82c": {
-          "id": "4b1ce928-27d4-416e-ba19-7f4919c2c82c",
-          "name": "Play Animation on Image Target Found",
-          "parameters": {
-            "imageTargetName": "DSC_0024"
-          }
-        }
-      },
+      "components": {},
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -404,15 +388,7 @@
       "geometry": null,
       "material": null,
       "parentId": "9eade930-5112-4e61-af34-932862d9eeb0",
-      "components": {
-        "7886f20b-b880-4a00-9426-586ad61e1e7c": {
-          "id": "7886f20b-b880-4a00-9426-586ad61e1e7c",
-          "name": "Play Animation on Image Target Found",
-          "parameters": {
-            "imageTargetName": "DSC_0033"
-          }
-        }
-      },
+      "components": {},
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -446,15 +422,7 @@
       "geometry": null,
       "material": null,
       "parentId": "9c5519cc-df3b-40e5-bb3a-33c195c4f317",
-      "components": {
-        "6b44ed28-69ec-48ec-af4f-4fb8eca03587": {
-          "id": "6b44ed28-69ec-48ec-af4f-4fb8eca03587",
-          "name": "Play Animation on Image Target Found",
-          "parameters": {
-            "imageTargetName": "DSC_0018"
-          }
-        }
-      },
+      "components": {},
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -550,6 +518,130 @@
         "name": "DSC_0054"
       },
       "order": 13.712264471146332
+    },
+    "15d401b0-fbf3-4235-a629-881d2d2c94f3": {
+      "id": "15d401b0-fbf3-4235-a629-881d2d2c94f3",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "5082f865-2a9e-4027-8a9f-4d1af2f8a0a3": {
+          "id": "5082f865-2a9e-4027-8a9f-4d1af2f8a0a3",
+          "name": "Keep After Image Target Lost",
+          "parameters": {}
+        }
+      },
+      "name": "Anchor1",
+      "order": 15.090219997910724
+    },
+    "972f98d7-ce3e-416c-b510-4fbec8773490": {
+      "id": "972f98d7-ce3e-416c-b510-4fbec8773490",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "b1f96c11-9074-44e2-8445-30276f047278": {
+          "id": "b1f96c11-9074-44e2-8445-30276f047278",
+          "name": "Keep After Image Target Lost",
+          "parameters": {}
+        }
+      },
+      "name": "Anchor2",
+      "order": 16.504735903496226
+    },
+    "048a93a2-c334-4d72-b9d9-5a54a58f3b54": {
+      "id": "048a93a2-c334-4d72-b9d9-5a54a58f3b54",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "3c6772d6-11d7-495f-9cbb-e9a083b04dd1": {
+          "id": "3c6772d6-11d7-495f-9cbb-e9a083b04dd1",
+          "name": "Keep After Image Target Lost",
+          "parameters": {}
+        }
+      },
+      "name": "Anchor3",
+      "order": 17.944572879975414
+    },
+    "38dfb991-422b-4b0b-93fa-a593fa54aa22": {
+      "id": "38dfb991-422b-4b0b-93fa-a593fa54aa22",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "f3dbeb70-9e44-4c90-a73b-f34d3f3dab04": {
+          "id": "f3dbeb70-9e44-4c90-a73b-f34d3f3dab04",
+          "name": "Keep After Image Target Lost",
+          "parameters": {}
+        }
+      },
+      "name": "Amchor4",
+      "order": 19.13680456999728
     }
   },
   "spaces": {

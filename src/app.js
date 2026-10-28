@@ -58,8 +58,11 @@ const onxrloaded = () => {
   })
 
   // --- イメージターゲット認識時の処理 ---
-  // onUpdate ではなく listeners で 'reality.imagefound' / 'reality.imagelost' を受ける。
+  // onUpdate ではなく listeners で 'reality.imagefound' を受ける。
   // (onUpdate の引数には detail が無いので、以前のコードでは常に return されていた)
+  // ・見失っても音は止めない(最後まで鳴らす)
+  // ・同じターゲットを再認識しても、再生中なら何もしない(頭から再生し直さない)
+  // ・別のターゲットを認識したら、鳴っている他の音は止めてから再生する(重ねない)
   XR8.addCameraPipelineModule({
     name: 'multi-sound-on-target',
     listeners: [
@@ -68,18 +71,22 @@ const onxrloaded = () => {
         process: ({detail}) => {
           const audio = audioMap[detail.name]
           if (!audio) return
-          audio.currentTime = 0
+
+          // すでにこの音が再生中なら、そのまま鳴らし続ける
+          if (!audio.paused && !audio.ended) return
+
+          // 他の音を止める(次に鳴らすときは頭から)
+          Object.values(audioMap).forEach((other) => {
+            if (other !== audio && !other.paused) {
+              other.pause()
+              other.currentTime = 0
+            }
+          })
+
           const p = audio.play()
           if (p && p.catch) {
             p.catch((err) => console.warn('audio play failed:', detail.name, err))
           }
-        },
-      },
-      {
-        event: 'reality.imagelost',
-        process: ({detail}) => {
-          const audio = audioMap[detail.name]
-          if (audio) audio.pause()
         },
       },
     ],
