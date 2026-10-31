@@ -968,7 +968,7 @@
           "type": "asset",
           "asset": "assets/9.glb"
         },
-        "animationClip": "",
+        "animationClip": "ani09",
         "loop": true
       },
       "name": "9.glb",
