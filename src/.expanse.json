@@ -969,7 +969,7 @@
           "asset": "assets/9.glb"
         },
         "animationClip": "ani09",
-        "loop": true
+        "loop": false
       },
       "name": "9.glb",
       "order": 1.721224692378617
