@@ -401,40 +401,6 @@
       "name": "1_4.glb (2)",
       "order": 1.9495894105604594
     },
-    "b6bbaa95-3745-478e-bb5e-2f74313f9fcf": {
-      "id": "b6bbaa95-3745-478e-bb5e-2f74313f9fcf",
-      "position": [
-        -0.4260122199574399,
-        -0.04896668617021849,
-        0.9884263380988623
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.8,
-        0.8,
-        0.8
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "38dfb991-422b-4b0b-93fa-a593fa54aa22",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/1_4.glb"
-        },
-        "animationClip": "ani04",
-        "loop": false,
-        "paused": false
-      },
-      "name": "1_4.glb (3)",
-      "order": 1.7097674427127691
-    },
     "e1052d6d-c5ed-4df3-8c88-a099111cf8df": {
       "id": "e1052d6d-c5ed-4df3-8c88-a099111cf8df",
       "position": [
@@ -659,7 +625,7 @@
             "imageTargetName": "DSC_0018",
             "model": {
               "type": "entity",
-              "id": "b6bbaa95-3745-478e-bb5e-2f74313f9fcf"
+              "id": "47dd1b37-71f7-4c1a-b3a0-d42a83505080"
             }
           }
         }
@@ -974,6 +940,39 @@
       },
       "name": "5_8.glb (3)",
       "order": 1.3521499601713822
+    },
+    "47dd1b37-71f7-4c1a-b3a0-d42a83505080": {
+      "id": "47dd1b37-71f7-4c1a-b3a0-d42a83505080",
+      "position": [
+        -0.947560872775743,
+        -0.42739088943575076,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.7999999999999996,
+        0.7999999999999996,
+        0.7999999999999996
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "38dfb991-422b-4b0b-93fa-a593fa54aa22",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/9.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "9.glb",
+      "order": 1.721224692378617
     }
   },
   "spaces": {
